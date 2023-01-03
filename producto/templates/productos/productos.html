@@ -1,0 +1,18 @@
+{% extends "peluqueriamimapp/base.html" %}
+
+{% load static %}
+{% block content %}
+
+    {% for producto in productos %}
+<div><p>
+
+    <h2>{{producto.nombre}}</h2>
+    <p>{{producto.descripcion}}</p>
+    <p><img src="{{producto.imagen.url}}"></p>
+</p>
+</div>
+
+
+    {% endfor %}
+
+{% endblock %}
