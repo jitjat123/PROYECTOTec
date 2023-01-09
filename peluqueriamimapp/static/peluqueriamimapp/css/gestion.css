@@ -89,7 +89,10 @@ p {
 #mainNav {
   background-color: var(--main-bg-color);
   font-family: 'Raleway';
+  text-decoration: none;
+  box-shadow: none;
 }
+
 
 #mainNav .navbar-brand {
   color: #ffffff;
@@ -100,10 +103,13 @@ p {
   font-weight: 800;
 }
 
+
 #mainNav .navbar-nav .nav-item.active .nav-link {
   color: #ffffff;
   text-decoration: underline;
 }
+
+
 
 @media (min-width: 992px) {
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -118,6 +124,7 @@ p {
     text-decoration: underline;
   }
 }
+
 
 .btn-xl {
   font-weight: 700;
@@ -294,12 +301,15 @@ ul.errorlist{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .nombre-empresa{
   margin-left: 20;
   color: #ffffff;
   text-decoration: none;
+  box-shadow: none;
 }
 
 .ContenedorFormulario{

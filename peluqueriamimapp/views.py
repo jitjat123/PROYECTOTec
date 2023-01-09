@@ -1,12 +1,13 @@
-from django.shortcuts import render, HttpResponse
-from producto.models import producto
-
+from django.shortcuts import render
+from carro.carro import Carro
 # Create your views here.
 
 def home(request):
+    carro=Carro(request)
+    
     return render(request, "peluqueriamimapp/home.html")
 
 
-def contacto(request):
-    return render(request, "peluqueriamimapp/contacto.html")
+
+
 
