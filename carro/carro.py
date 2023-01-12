@@ -58,3 +58,7 @@ class Carro:
                     value["precio"]=float(value["costo"])*cantidad
                     value["cantidad"]=cantidad
                     self.guardar_carro()
+
+
+
+
